@@ -12,7 +12,7 @@
       {% endif %}
     </li>
 
-    {% include flags.html %}
+    {%- comment -%}{% include flags.html %}{%- endcomment -%}
 
     {% for menu in site.menu reversed %}
     {% assign class = nil %}
@@ -37,6 +37,7 @@
 {% if page.url contains '/en/' %}
 {% assign fontSize = 34 %}
 {% endif %}
+{%- comment -%}
 <div class="entry-header">
   <svg width="100%" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
     <path id="svg-title-path">
@@ -48,3 +49,4 @@
   </svg>
   <canvas id="J_firework_canvas"></canvas>
 </div>
+{%- endcomment -%}
