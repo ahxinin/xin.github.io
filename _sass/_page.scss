@@ -717,3 +717,14 @@ video.bg-img {
 .entry-content img {
   cursor: zoom-in;
 }
+
+// Add spacing between navigation and content
+// --------------------------------------------------
+#post, #page {
+  #main {
+    margin-top: 80px;
+    @media #{$medium} {
+      margin-top: 90px;
+    }
+  }
+}

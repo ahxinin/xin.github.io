@@ -16,6 +16,6 @@ body_id: post
     {{ content | cdn_image_filter }}
     {% include buy-me-coffee.html %}
   </div>
-  {% include giscus.html %}
+  {%- comment -%}{% include giscus.html %}{%- endcomment -%}
   {% include read-more.html %}
 </article>

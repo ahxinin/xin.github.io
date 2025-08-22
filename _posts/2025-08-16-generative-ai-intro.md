@@ -8,6 +8,8 @@ tags: [AI, 机器学习, 深度学习, Transformer, GPT]
 feature: https://blog.twocatty.xin/images/generative-ai/image.png
 ---
 
+<small>本文为台大李宏毅【生成式AI導論 2024】课程笔记</small>
+
 # 1.什么是生成式人工智慧
 
 ## 1.1.概述
