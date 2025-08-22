@@ -1,25 +1,23 @@
 # Site Information
-title: Tw93
-description: "一个喜欢开源和折腾的工程师"
-url: https://tw93.fun
-repo: tw93/tw93.github.io
+title: Xin
+description: "一个喜欢投资的工程师"
+url: https://blog.twocatty.xin
+repo: ahxinin/xin.github.io
 lang: zh-CN
 encoding: utf-8
-timezone: Africa/El_Aaiun
+timezone: Asia/Shanghai
 
 # Social Media and External URLs
-github: tw93
-zhihu: tw93
-twitter: HiTw93
-v2ex: tw93
+github: ahxinin
+twitter: ahxinin
 menu:
   - title: "About"
     url: "/about.html"
   - title: "Weekly"
-    url: "https://weekly.tw93.fun/"
+    url: "https://weekly.twocatty.xin/"
 
 # SEO and Analytics
-google_analytics: G-KS7EDB6BRM
+google_analytics: G-Q3HX0EYJV5
 
 # Build Settings
 paginate: 10
@@ -64,8 +62,8 @@ plugins:
   - jekyll-feed
 
 # Custom Site Settings
-showBuyCoffee: true
-payImage: //gw.alipayobjects.com/zos/k/vb/1.png
-assetUrl: //tw93.fun/images/
+showBuyCoffee: false
+payImage: 
+assetUrl: //blog.twocatty.xin/images/
 defaultImage: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 
