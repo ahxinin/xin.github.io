@@ -351,14 +351,14 @@ iframe {
 // --------------------------------------------------
 #post-index {
   #main {
-    margin: 80px 2px 30px 2px;
+    margin: 100px 2px 30px 2px;
     overflow: hidden;
     @media #{$medium} {
-      margin: 20px;
+      margin: 110px 20px 20px 20px;
     }
     @media #{$large} {
       max-width: 900px;
-      margin: 30px auto 0;
+      margin: 120px auto 0;
     }
   }
   article {
